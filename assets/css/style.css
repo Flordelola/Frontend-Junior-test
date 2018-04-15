@@ -1,0 +1,337 @@
+@font-face {
+
+  font-family: 'Font Awesome';
+  src: url('../Fonts/FontAwesome.woff2') format('woff2'),
+       url('../Fonts/FontAwesome.woff') format('woff');
+       
+}
+
+@font-face {
+
+  font-family: 'Minion Pro';
+  src: url('../Fonts/MinionPro-Regular.woff2') format('woff2'),
+       url('../Fonts/MinionPro-Regular.woff') format('woff');
+       
+}
+
+@font-face {
+
+  font-family: 'OpenSans Bold';
+  src: url('../Fonts/OpenSans-Bold_0.woff2') format('woff2'),
+       url('../Fonts/OpenSans-Bold_0.woff') format('woff');
+       
+}
+
+@font-face {
+
+  font-family: 'OpenSans Light';
+  src: url('../Fonts/OpenSans-Light.woff2') format('woff2'),
+       url('../Fonts/OpenSans-Light.woff') format('woff');
+       
+}
+
+@font-face {
+
+  font-family: 'OpenSans LightItalic';
+  src: url('../Fonts/OpenSans-LightItalic.woff2') format('woff2'),
+       url('../Fonts/OpenSans-LightItalic.woff') format('woff');
+       
+}
+
+@font-face {
+
+  font-family: 'OpenSans Regular';
+  src: url('../Fonts/OpenSans-Regular.woff2') format('woff2'),
+       url('../Fonts/OpenSans-Regular.woff') format('woff');
+       
+}
+
+@font-face {
+
+  font-family: 'OpenSans SemiBold';
+  src: url('../Fonts/OpenSans-SemiBold.woff2') format('woff2'),
+       url('../Fonts/OpenSans-SemiBold.woff') format('woff');
+       
+}
+
+
+
+html {
+
+    height: 100% ;
+    text-rendering: optimizeLegibility ;
+    -ms-text-size-adjust: 100% ;
+    -webkit-text-size-adjust: 100% ;
+    
+}
+
+body {
+
+    height: 100% ;
+    background-color: #000 ;
+    overflow: auto;
+    
+}
+
+
+.button1 { 
+
+   font-size: 18px;
+   font-family: 'OpenSans Bold'; 
+   color: rgba(255, 255, 255, 255);
+   background-color: rgba(0, 172, 237, 255);
+   border: none;
+   width: 275px;
+   height: 62.5px;
+   margin: 0;
+   position: absolute;
+   top: 360px;  
+   transform: translate(-50%, -50%);
+   
+}
+
+   
+.button2 {
+  
+    font-size: 18px;
+    font-family: 'OpenSans Bold'; 
+    color: rgba(0, 172, 237, 255);
+    background-color: rgba(38, 50, 56, 255);
+    border: none;
+    width: 275px;
+    height: 62.5px;
+    margin-top: 60px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+ 
+  
+}
+
+.button3 {
+    
+    font-size: 18px;
+    font-family: 'OpenSans Bold'; 
+    color: rgba(255, 255, 255, 255);
+    background-color: rgba(38, 50, 56, 255);
+    border: none;
+    width: 275px;
+    height: 62.5px;
+    margin-top: 40px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+.button4 {
+  
+    font-size: 18px;
+    font-family: 'OpenSans Bold'; 
+    color: rgba(255, 255, 255, 255);
+    background-color: rgba(0, 172, 237, 255);
+    border: none;
+    width: 275px;
+    height: 62.5px;
+    margin-top: 240px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+}
+
+.button-facebook {
+    
+    font-size: 18px;
+    font-family: 'OpenSans SemiBold'; 
+    color: rgba(255, 255, 255, 255);
+    background-color: rgba(55, 88, 154, 255);
+    border: none;
+    width: 295px;
+    height: 50px;
+    margin: 0;
+    position: absolute;
+    top: 70px;  
+    transform: translate(-50%, -50%);
+   
+}
+
+.button-email {
+    
+        font-size: 18px;
+        font-family: 'OpenSans SemiBold'; 
+        color: rgba(255, 255, 255, 255);
+        background-color: rgba(194, 194, 194, 255);
+        border: none;
+        width: 295px;
+        height: 50px;
+        margin: 0;
+        position: absolute;
+        top: 230px;  
+        transform: translate(-50%, -50%);
+        
+}
+
+.button-twitter {
+
+    font-size: 18px;
+    font-family: 'OpenSans SemiBold'; 
+    color: rgba(255, 255, 255, 255);
+    background-color: rgba(0, 172, 237, 255);
+    border: none;
+    width: 295px;
+    height: 50px;
+    margin: 0;
+    position: absolute;
+    top: 150px;  
+    transform: translate(-50%, -50%);
+    
+}
+
+
+.card {
+    max-width: 810px;
+    height: 1250px;
+    margin: 0 auto; 
+    float: none;
+    border:none;
+    
+}
+
+.card-footer {
+    
+    font-size: 16px;
+    font-family: 'OpenSans Light'; 
+    color: rgba(0, 172, 237, 255);
+    background-color: rgba(38, 50, 56, 255);
+    max-width: 810px;
+    height: 83.75px;
+    line-height: 41.875px;
+    
+}
+
+
+.card-img-top1 {
+  
+    max-width: 810px;
+    max-height: 530px;
+        
+}
+
+.card-img-top2 {
+
+    max-width: 810px;
+    max-height: 312.5px;
+  
+}
+
+.card-text1 {
+  
+    font-size: 18px;
+    font-family: 'OpenSans Light'; 
+    color: rgba(38, 50, 56, 255);
+    line-height:1.25;
+    padding-top: 3%;
+    padding-left: 11.5%;
+    padding-right: 11.5%;
+ 
+}
+
+.card-text2 {
+    
+    font-size: 18px;
+    font-family: 'OpenSans Light'; 
+    color: rgba(38, 50, 56, 255);
+    line-height:1.25;
+    padding-top: 3%;
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-bottom: 1%;
+  }
+
+
+.card-title1 {
+
+    font-size: 36px;
+    font-family: 'OpenSans Bold'; 
+    color: rgba(0, 172, 237, 255);
+    padding-top: 14px;
+   
+}
+
+.card-title2 {
+  
+    font-size: 36px;
+    font-family: 'OpenSans Bold'; 
+    color: rgba(0, 172, 237, 255);
+    padding-top: 110px;
+    
+}
+
+
+.form-check {
+    
+      font-size: 11px;
+      font-family: 'OpenSans Light'; 
+      color: rgba(110, 110, 110, 255);
+      margin-top: 150px;
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%,-50%);
+      text-align: left;
+         
+}
+  
+.form-group {
+
+    font-size: 12px;
+    font-family: 'OpenSans Light'; 
+    background-color: transparent;
+    border: 2.5px solid rgba(38, 50, 56, 255);
+    color: rgba(194,194,194,255);
+    max-width: 399.907px;
+    max-height: 51.25px;
+    margin: 23.22px auto; 
+    float: none;
+        
+}
+
+
+.modal-body {
+
+    background-color: rgba(237, 242, 242, 255);
+    height: 300px;
+    color: rgba(255, 255, 255, 255);
+    font-size: 18px;
+    font-family: 'OpenSans SemiBold'; 
+  
+}
+
+.modal-header{
+    
+    background-color: rgba(100, 109, 155, 255);
+    
+
+}
+.modal-title {
+    
+    color: rgba(255, 255, 255, 255);
+    font-size: 18px;
+    font-family: 'OpenSans SemiBold'; 
+    text-align: center;
+}
+
+
+
+.text {
+    
+      font-size: 24px;
+      font-family: 'OpenSans Bold';
+      color: rgba(255, 255, 255, 255);
+      margin-top: 2px;
+      
+}
+
+#logos{
+    
+        height: 25px;
+}
